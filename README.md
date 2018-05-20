@@ -4,6 +4,8 @@
     <small>By Jems</small>
 </p>
 
+---
+
 A simple an basic implementation for creating and handling well-defined events by providing control about event triggering, subscription, and handling (Typescript included)
 
 ## What can be achieved?
