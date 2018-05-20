@@ -4,6 +4,8 @@
     <small>By Jems</small>
 </p>
 
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+
 ---
 
 A simple an basic implementation for creating and handling well-defined events by providing control about event triggering, subscription, and handling (Typescript included)

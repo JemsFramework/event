@@ -1,0 +1,8 @@
+{
+  "name": "@jems/events-domain",
+  "version": "0.0.1",
+  "description": "Domain abtraction for @jems/event",
+  "main": "events-domain.js",
+  "author": "Francisco Mercedes <franciscomerdot@gmail.com>",
+  "license": "MIT"
+}
