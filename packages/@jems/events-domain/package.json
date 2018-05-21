@@ -4,5 +4,8 @@
   "description": "Domain abtraction for @jems/event",
   "main": "events-domain.js",
   "author": "Francisco Mercedes <franciscomerdot@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "traspile": "rollup -c"
+  }
 }

@@ -2,12 +2,8 @@
     "compilerOptions": {
         "lib": ["es6"],
         "target": "es5",
-        "module": "commonjs",
-        "moduleResolution": "node"
-    },
-    "exclude": [
-        "**/bin",
-        "**/dist",
-        "**/node_modules"
-    ]
+        "module": "esnext",
+        "moduleResolution": "node",
+        "outDir": "bin"
+    }
 }
