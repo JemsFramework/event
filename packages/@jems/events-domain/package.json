@@ -5,7 +5,14 @@
   "main": "events-domain.js",
   "author": "Francisco Mercedes <franciscomerdot@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "traspile": "rollup -c"
-  }
+    "clean": "rimraf dist bin ",
+    "transpile": "tsc -p tsconfig.json",
+    "build": "yarn clean && yarn transpile",
+    "distribute": "yarn build && copyfiles -u 1 bin/**/*.d.ts dist/definitions"
+	}
 }
