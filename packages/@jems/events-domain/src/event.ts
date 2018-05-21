@@ -8,11 +8,11 @@ export interface Event<Handler extends (...args) => void> {
   /**
    * Represents the event dispatcher, used to dispatch the event
    */
-  dispatcher: EventDispather<Handler>
+  readonly dispatcher: EventDispather<Handler>
 
   /**
    * Represents an emitter where handlers are subscribed and then executed
    * when the event is dispatched
    */
-  emitter: EventEmitter<Handler>
+  readonly emitter: EventEmitter<Handler>
 }

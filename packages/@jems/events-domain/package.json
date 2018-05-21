@@ -2,7 +2,8 @@
   "name": "@jems/events-domain",
   "version": "0.0.1",
   "description": "Domain abtraction for @jems/event",
-  "main": "events-domain.js",
+  "types": "definitions/index.ts",
+  "main": "index.js",
   "author": "Francisco Mercedes <franciscomerdot@gmail.com>",
   "license": "MIT",
   "files": [
@@ -13,6 +14,6 @@
     "clean": "rimraf dist bin ",
     "transpile": "tsc -p tsconfig.json",
     "build": "yarn clean && yarn transpile",
-    "distribute": "yarn build && copyfiles -u 1 bin/**/*.d.ts dist/definitions"
+    "distribute": "yarn build && copyfiles -u 1 bin/index.js dist && copyfiles -u 1 bin/**/*.d.ts dist/definitions"
 	}
 }

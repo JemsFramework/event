@@ -4,6 +4,8 @@
         "target": "es5",
         "module": "esnext",
         "moduleResolution": "node",
-        "outDir": "bin"
+        "outDir": "bin",
+        "declaration": true,
+        "sourceMap": true
     }
 }
