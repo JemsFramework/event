@@ -2,7 +2,7 @@ import { EventDispather } from './event-dispatcher';
 import { EventEmitter } from './event-emitter';
 
 /**
- *Represents an event that can be discreetly dispatched and handled
+ * Represents an event that can be discreetly dispatched and handled
  */
 export interface Event<Handler extends (...args) => void> {
   /**
